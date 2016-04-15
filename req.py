@@ -10,7 +10,7 @@ def wallGet(pars):
         print("DA")
         try:
             for i in range(1, pars['count']):
-                print("DAAA?")
+                #print("DAAA?")
                 text = jsonList[i].get('text')
                 time = datetime.fromtimestamp(jsonList[i].get('date'))                    
                 #print(text,time)
